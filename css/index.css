@@ -1,0 +1,97 @@
+
+
+.ealbum{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+    width:80%;
+
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.text{
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    text-shadow: 2px 2px 1px #00cc99;
+
+}
+
+.album{
+    width:100%;
+    height:388px;
+
+    background-color: black;
+    position:relative;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+
+    display: -moz-box;
+    display: -moz-flex;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    /* 水平居中*/
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-pack:center;/* IE 10 */
+
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;/* IE 11+,Firefox 22+,Chrome 29+,Opera 12.1*/
+
+    /* 垂直居中 */
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-align:center;/* IE 10 */
+
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+
+}
+
+.image1{
+    width:15%;
+    height:30%;
+    position:absolute;
+    top:140px;
+    left:0;
+
+}
+
+#pic1{
+    width:100%;
+    height:100%;
+
+}
+.image0{
+    width:60%;
+    height:100%;
+
+}
+
+#pic0{
+    width:100%;
+    height:100%;
+
+}
+.image2{
+    width:15%;
+    height:30%;
+    position: absolute;
+    top:140px;
+    right: 0;
+
+}
+
+#pic2{
+    width:100%;
+    height:100%;
+}
+
