@@ -62,9 +62,7 @@ function leftClick(){
 }
 
 function rightClick(){
-
     if(index==5){
-
         img0.src=imgs[index+1];
         img1.src=imgs[index];
         img2.src=imgs[0];
